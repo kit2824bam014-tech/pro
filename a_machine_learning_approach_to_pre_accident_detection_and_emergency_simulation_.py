@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1BCiQZn3FtfmQ2XMp2ezG9erq5gW5WIOI
 """
 
-!pip install termcolor
+
 
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
