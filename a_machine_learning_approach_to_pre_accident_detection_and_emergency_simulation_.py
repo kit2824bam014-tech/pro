@@ -21,7 +21,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
-import termcolor
+
 
 
 
@@ -80,7 +80,7 @@ if predicted_label in ["Serious Injury", "Fatal Injury"]:
 
     st.write("Dispatching Emergency Alert...")
     for key, value in driver_info.items():
-        print(f"{key}: {value}")
+        st.write(f"{key}: {value}")
 else:
     st.write("\n No emergency triggered.")
 
